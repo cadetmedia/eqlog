@@ -8,7 +8,8 @@ app's charcoal backgrounds, muted gold accents, and Segoe UI typography.
 **[Download EQLog v0.1.0 — Windows installer (64-bit)](https://github.com/cadetmedia/eqlog/raw/refs/heads/main/downloads/eqlog-Setup-0.1.0.exe)**
 
 [Installer file page](downloads/eqlog-Setup-0.1.0.exe) ·
-[SHA-256 checksum](downloads/eqlog-Setup-0.1.0.exe.sha256)
+[SHA-256 checksum](downloads/eqlog-Setup-0.1.0.exe.sha256) ·
+[See screenshots](#screenshots)
 
 Requires **Windows 10 or 11, 64-bit**. Python and administrator access are not
 required. The current installer is unsigned. This checked-in package passed
@@ -39,6 +40,26 @@ chat; combat-heavy logs may shrink very little.
 
 To uninstall, use **Windows Settings → Apps → EQLog → Uninstall**. User logs and
 backups are preserved. See [Restore](#restore) for recovery directions.
+
+## Screenshots
+
+These screenshots show the current development build. Windows fonts and window
+borders may differ. The cleanup preview uses generated sample data; actual
+savings depend on your log.
+
+### Cleanup preview
+
+Choose your log and see its current size, estimated cleaned size, and removable
+line count before clicking **Back up & clean**.
+
+![EQLog cleanup preview showing the log picker, before-and-after sizes, sample savings, and Back up & clean button](docs/screenshots/cleanup-preview.png)
+
+### Startup confirmation
+
+EQLog requires you to click **OK** to confirm EverQuest and Companion are closed
+before you can use the main controls.
+
+![EQLog startup warning requiring confirmation that EverQuest and Companion are closed](docs/screenshots/startup-warning.png)
 
 ## Run from source
 

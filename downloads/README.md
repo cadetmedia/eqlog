@@ -3,6 +3,7 @@
 [Download EQLog v0.1.0 for Windows x64](https://github.com/cadetmedia/eqlog/raw/refs/heads/main/downloads/eqlog-Setup-0.1.0.exe)
 
 See the [installation and cleanup directions](../README.md#download-for-windows).
+[Preview the app screenshots](../README.md#screenshots) before downloading.
 If GitHub opens the binary file page, use **Download raw file**.
 Repository access is required if this repository is private.
 
