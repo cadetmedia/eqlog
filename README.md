@@ -5,18 +5,23 @@ app's charcoal backgrounds, muted gold accents, and Segoe UI typography.
 
 ## Download for Windows
 
-**[Download EQLog v0.1.0 — Windows installer (64-bit)](https://github.com/cadetmedia/eqlog/releases/download/v0.1.0/eqlog-Setup-0.1.0.exe)**
+**[Download EQLog v0.1.0 — Windows installer (64-bit)](https://github.com/cadetmedia/eqlog/raw/refs/heads/main/downloads/eqlog-Setup-0.1.0.exe)**
 
-[Release details](https://github.com/cadetmedia/eqlog/releases/tag/v0.1.0) ·
-[SHA-256 checksum](https://github.com/cadetmedia/eqlog/releases/download/v0.1.0/eqlog-Setup-0.1.0.exe.sha256)
+[Installer file page](downloads/eqlog-Setup-0.1.0.exe) ·
+[SHA-256 checksum](downloads/eqlog-Setup-0.1.0.exe.sha256)
 
 Requires **Windows 10 or 11, 64-bit**. Python and administrator access are not
-required. The current installer is unsigned.
+required. The current installer is unsigned. This checked-in package passed
+installation, backup, and uninstall checks under Wine; native Windows
+validation is still pending. Tagged builds also publish to
+[GitHub Releases](https://github.com/cadetmedia/eqlog/releases) after Windows
+CI checks pass.
 
 ### Install and clean your log
 
 1. Close **EverQuest Legends** and **EverQuest Companion**.
-2. Download and double-click `eqlog-Setup-0.1.0.exe`. It installs for your Windows
+2. Download and double-click `eqlog-Setup-0.1.0.exe`. If GitHub shows a file page,
+   click **Download raw file**. It installs for your Windows
    account and creates Desktop and Start menu shortcuts.
 3. Open **EQLog** and click **OK** to confirm both other apps are closed. Keep
    them closed until cleanup finishes.
